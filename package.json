@@ -1,0 +1,30 @@
+{
+  "name": "nexmocitarecordatorio",
+  "version": "1.0.0",
+  "description": "Envio de SMS para el recordatorio de citas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayserjhamillex/masive-msm.git"
+  },
+  "keywords": [
+    "sms",
+    "masive-sms"
+  ],
+  "author": "Anibal Jhamil Huaman Verastein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayserjhamillex/masive-msm/issues"
+  },
+  "homepage": "https://github.com/kayserjhamillex/masive-msm#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^3.1.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nexmo": "^0.0.7"
+  }
+}
